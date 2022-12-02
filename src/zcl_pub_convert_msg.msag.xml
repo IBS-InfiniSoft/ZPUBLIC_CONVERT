@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_PUB_CONVERT_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Soobshcheniya dlya konvertatsiy</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCL_PUB_CONVERT_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Conversion error. See attached message (previous)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCL_PUB_CONVERT_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Target field &amp;1 is shorter than source &amp;2</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZCL_PUB_CONVERT_MSG</ARBGB>
+     <STEXT>Сообщения для конвертаций</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Ошибка конвертации. См. вложенное сообщение (previous)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Длина целевого поля &amp;1 меньше длины исходного &amp;2</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
